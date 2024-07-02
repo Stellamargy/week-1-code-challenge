@@ -1,3 +1,4 @@
+const speed=Number(prompt("Enter the speed? "))
 function speedDetector(speed){
     let points;
     let licenseState;
@@ -15,4 +16,5 @@ function speedDetector(speed){
     }
    return licenseState; 
 }
-console.log(speedDetector(90));
+
+console.log(speedDetector(speed))
